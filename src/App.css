@@ -1,0 +1,185 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#top {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 2vh;
+}
+#logo {
+  display: flex;
+  align-items: center;
+}
+
+#nav {
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+}
+nav a {
+  text-decoration: none;
+}
+/* the body design */
+#begin {
+  display: flex;
+  justify-content: center;
+  padding-top: 8vh;
+  text-align: center;
+}
+#begin h1 {
+  font-size: 40px;
+}
+
+#begin h2 {
+  font-family: Lora;
+  font-size: 50px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 64px;
+  letter-spacing: -0.04em;
+  text-align: center;
+}
+
+#img1 img {
+  width: 100vw;
+}
+
+/* design of about text */
+#abttext {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: justify;
+  padding-top: 8vh;
+  gap: 50vh;
+  margin: 10vh auto;
+}
+#abttext h1 {
+  /* text-align: left; */
+  padding-right: 20vh;
+  margin-top: 5vh;
+  margin-right: 150px;
+  font-family: PP Editorial New;
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 64px;
+  letter-spacing: -0.04em;
+  text-align: center;
+}
+#text p {
+  font-size: 24px;
+  font-family: Neue Montreal;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: -0.04em;
+  text-align: left;
+}
+
+/* vidoe edit */
+#video img {
+  width: 80vw;
+  padding: 30px;
+}
+/* portfolio */
+#port {
+  /* border: 1px black solid; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: justify;
+  padding-top: 8vh;
+  gap: 50vh;
+  margin: 10vh auto;
+}
+#port h1 {
+  padding-right: 5vh;
+  margin-top: 5vh;
+  margin-right: 200px;
+  font-family: PP Editorial New;
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 64px;
+  letter-spacing: -0.04em;
+  text-align: center;
+}
+#ptxt {
+  font-family: Neue Montreal;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: -0.04em;
+  text-align: left;
+}
+
+/* design for images */
+#imgrow {
+  /* border: 1px black solid; */
+  display: flex;
+  flex-direction: row;
+  padding-left: 5vh;
+  flex-wrap: wrap;
+  gap: 2vh;
+}
+
+.image {
+  display: flex;
+  flex-direction: row;
+  width: 30%;
+  flex-wrap: wrap;
+  column-gap: 2vh;
+  justify-content: space-between;
+}
+
+/* FAQ */
+#ttx {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: justify;
+  padding-top: 8vh;
+  gap: 60vh;
+  margin: 10vh auto;
+}
+#ttx h1 {
+  font-size: 40px;
+  margin-right: 20px;
+}
+#ttx p {
+  font-family: Neue Montreal;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: -0.04em;
+  text-align: left;
+}
+
+#design {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: justify;
+  padding-top: 8vh;
+  gap: 60vh;
+  margin: 10vh auto;
+  line-height: 2;
+  font-weight: bold;
+  margin-right: 20px;
+}
+#design p {
+  font-family: Neue Montreal;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 2;
+  letter-spacing: -0.04em;
+  text-align: left;
+  padding: 10px;
+  gap: 10px;
+}
+#plus {
+  margin-left: 400px;
+  font-size: 24px;
+}
