@@ -14,6 +14,9 @@
   display: flex;
   align-items: center;
 }
+#logo h2 {
+  font-family: inter, sans-serif;
+}
 
 #nav {
   display: flex;
@@ -22,6 +25,16 @@
 }
 nav a {
   text-decoration: none;
+  color: black;
+  font-family: inter, sans-serif;
+  font-size: 20px;
+}
+#sess {
+  border: 2px solid black;
+  font-family: inter, sans-serif;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 50px;
 }
 /* the body design */
 #begin {
@@ -32,6 +45,7 @@ nav a {
 }
 #begin h1 {
   font-size: 40px;
+  font-family: ;
 }
 
 #begin h2 {
@@ -46,20 +60,28 @@ nav a {
 
 #img1 img {
   width: 100vw;
+  overflow: hidden;
 }
 
 /* design of about text */
 #abttext {
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  text-align: justify;
+  justify-content: space-between;
+  width: 100%;
+  font-size: 20px;
   padding-top: 8vh;
   gap: 50vh;
-  margin: 10vh auto;
+  font-family: PP Editorial New;
 }
-#abttext h1 {
-  /* text-align: left; */
+
+#abttext2 {
+  display: flex;
+  gap: 50vh;
+  align-items: center;
+  padding: 3vh 15vw;
+}
+/* #abttext h1 {
   padding-right: 20vh;
   margin-top: 5vh;
   margin-right: 150px;
@@ -69,20 +91,27 @@ nav a {
   line-height: 64px;
   letter-spacing: -0.04em;
   text-align: center;
-}
-#text p {
+} */
+/* #text p {
+  display: flex;
   font-size: 24px;
   font-family: Neue Montreal;
   font-weight: 400;
   line-height: 29px;
   letter-spacing: -0.04em;
   text-align: left;
-}
+} */
 
 /* vidoe edit */
-#video img {
+#video {
   width: 80vw;
-  padding: 30px;
+  /* padding: 30px; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  /* padding-left: 5vh; */
+  /* flex-wrap: wrap; */
 }
 /* portfolio */
 #port {
@@ -120,18 +149,10 @@ nav a {
   /* border: 1px black solid; */
   display: flex;
   flex-direction: row;
+  justify-content: center;
   padding-left: 5vh;
   flex-wrap: wrap;
   gap: 2vh;
-}
-
-.image {
-  display: flex;
-  flex-direction: row;
-  width: 30%;
-  flex-wrap: wrap;
-  column-gap: 2vh;
-  justify-content: space-between;
 }
 
 /* FAQ */
@@ -182,4 +203,11 @@ nav a {
 #plus {
   margin-left: 400px;
   font-size: 24px;
+}
+.footer {
+  background-image: url("/public/res/last.png");
+  height: 70vh;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  overflow: hidden;
 }

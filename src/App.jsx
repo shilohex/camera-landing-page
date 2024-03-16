@@ -7,17 +7,17 @@ function App() {
         <header id="top">
           <div id="logo">
             <img src="./res/1stlogo.png" alt="" />
-            <h2>LuminaLens</h2>
+            <h1>LuminaLens</h1>
           </div>
 
           <nav id="nav">
             <a href="">Home</a>
             <a href="">About US</a>
-            <a href="">Our portfolio </a>
+            <a href="">Our Portfolio </a>
             <a href="">Contact Us</a>
           </nav>
 
-          <h2>Book Session</h2>
+          <h1 id="sess">Book Session</h1>
         </header>
 
         <section id="begin">
@@ -38,30 +38,36 @@ function App() {
           </div>
         </section>
         <section id="abttext">
-          <h1>About Us</h1>
-          <div id="text">
-            <p>
-              {" "}
-              <br /> Welcome to LuminaLens Photography, where we freeze fleeting
-              <br /> moments and transform them into timeless memories through
-              <br /> the lens, capturing the essence of wildlife, love-filled
-              weddings,
-              <br /> curated interiors, vast landscapes, and delectable gourmet
-              <br /> cuisine, blending creativity and technical expertise to
-              bridge the
-              <br /> gap between the visual and the emotional, aiming to craft
-              each
-              <br /> photograph into a unique narrative that resonates with
-              hearts
-              <br /> inviting you to join us on this photographic journey where
-              every
-              <br /> click is a testament to life's beautiful moments.{" "}
-            </p>
+          <div id="abttext2">
+            <h1>About Us</h1>
+            <div id="text">
+              <p>
+                {" "}
+                <br /> Welcome to LuminaLens Photography, where we freeze
+                fleeting
+                <br /> moments and transform them into timeless memories through
+                <br /> the lens, capturing the essence of wildlife, love-filled
+                weddings,
+                <br /> curated interiors, vast landscapes, and delectable
+                gourmet
+                <br /> cuisine, blending creativity and technical expertise to
+                bridge the
+                <br /> gap between the visual and the emotional, aiming to craft
+                each
+                <br /> photograph into a unique narrative that resonates with
+                hearts
+                <br /> inviting you to join us on this photographic journey
+                where every
+                <br /> click is a testament to life's beautiful moments.{" "}
+              </p>
+            </div>
           </div>
         </section>
+
         <section id="video">
-          <img src="./res/video.png" alt="" />
+          <div>{/* <img src="./res/video.png" alt="" /> */}</div>
         </section>
+
         <section id="port">
           <h1>Our portfolio</h1>
           <div id="ptxt">
@@ -83,13 +89,13 @@ function App() {
           <div>
             <img src="./res/image2.png" alt="" />
           </div>
-          <div className="image">
+          <div>
             <img src="./res/image3.png" alt="" />
           </div>
           <div>
             <img src="./res/image4.png" alt="" />
           </div>
-          <div className="image">
+          <div>
             <img src="./res/image5.png" alt="" />
           </div>
         </section>
@@ -126,15 +132,13 @@ function App() {
           </div>
         </section>
         <section>
-          <div>
-            <img src="./res/last.png" alt="" />
-          </div>
-          <div>
+          <div className="footer">{/* <img src={background} alt="" /> */}</div>
+          {/* <div>
             <img src="./res/Logo1.png" alt="" />
             <p>LuminaLens</p>
             <p>X</p>
             <p>Instagram</p>
-          </div>
+          </div> */}
         </section>
       </section>
     </>
