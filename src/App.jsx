@@ -106,37 +106,40 @@ function App() {
           </div>
         </section>
 
-        <section>
-          <div id="ttx">
+        <section id="abttext">
+          <div id="abttext2">
             <h1>FAQ</h1>
-            <p>
-              Got questions?we've got answers!Browse our FAQs for all the <br />{" "}
-              info you need
-            </p>
-          </div>
-
-          <div id="design">
-            <p>
-              What type of Photography service do we offer?
-              <br />
-              How can i book a Photography session with your studio? <br />
-              Do you offer customised Photography packages?
-              <br />
-              Can we view sample work or a portfolio before booking? <br />
-              Are your photographers experienced and skilled?
-              <br />
-            </p>
-            <div id="plus">
+            <div id="text">
               <p>
-                +<br />
-                +<br />
-                +<br />
-                +<br />
-                +<br />
+                Got questions?we've got answers!Browse our FAQs for all the{" "}
+                <br /> info you need
               </p>
             </div>
           </div>
         </section>
+
+        <div id="design">
+          <p>
+            What type of Photography service do we offer?
+            <br />
+            How can i book a Photography session with your studio? <br />
+            Do you offer customised Photography packages?
+            <br />
+            Can we view sample work or a portfolio before booking? <br />
+            Are your photographers experienced and skilled?
+            <br />
+          </p>
+          <div id="plus">
+            <p>
+              +<br />
+              +<br />
+              +<br />
+              +<br />
+              +<br />
+            </p>
+          </div>
+        </div>
+
         <section>
           <div className="footer">{/* <img src={background} alt="" /> */}</div>
           {/* <div>
