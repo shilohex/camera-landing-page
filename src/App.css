@@ -70,7 +70,6 @@ nav a {
   justify-content: space-between;
   width: 100%;
   font-size: 20px;
-  padding-top: 8vh;
   gap: 50vh;
   font-family: PP Editorial New;
 }
@@ -80,18 +79,14 @@ nav a {
   gap: 50vh;
   align-items: center;
   padding: 3vh 15vw;
+  margin-left: 40px;
 }
-/* #abttext h1 {
-  padding-right: 20vh;
-  margin-top: 5vh;
-  margin-right: 150px;
+#abttext h1 {
   font-family: PP Editorial New;
   font-size: 50px;
   font-weight: 400;
   line-height: 64px;
-  letter-spacing: -0.04em;
-  text-align: center;
-} */
+}
 /* #text p {
   display: flex;
   font-size: 24px;
