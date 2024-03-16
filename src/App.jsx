@@ -37,6 +37,7 @@ function App() {
             <img src="./res/camera.png" alt="" />
           </div>
         </section>
+
         <section id="abttext">
           <div id="abttext2">
             <h1>About Us</h1>
@@ -65,23 +66,28 @@ function App() {
         </section>
 
         <section id="video">
-          <div>{/* <img src="./res/video.png" alt="" /> */}</div>
-        </section>
-
-        <section id="port">
-          <h1>Our portfolio</h1>
-          <div id="ptxt">
-            <p>
-              Explore the beauty of diverse worlds through our lens - from the{" "}
-              <br />
-              untamed wilderness to love-filled weddings, curated interiors,
-              <br />
-              vast landscapes, and exquisite gourmet creations, each frame{" "}
-              <br />
-              holds a story waiting to be told
-            </p>
+          <div>
+            <img src="./res/video.png" alt="" />
           </div>
         </section>
+
+        <section id="abttext">
+          <div id="abttext2">
+            <h1>Our Portfolio</h1>
+            <div id="text" className="nxt">
+              <p>
+                Explore the beauty of diverse worlds through our lens - from the{" "}
+                <br />
+                untamed wilderness to love-filled weddings, curated interiors,
+                <br />
+                vast landscapes, and exquisite gourmet creations, each frame{" "}
+                <br />
+                holds a story waiting to be told
+              </p>
+            </div>
+          </div>
+        </section>
+
         <section id="imgrow">
           <div>
             <img src="./res/image1.png" alt="" />
